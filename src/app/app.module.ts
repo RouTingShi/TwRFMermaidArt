@@ -7,6 +7,8 @@ import { IndexComponent } from './index/index.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MenuComponent } from './index/menu/menu.component';
+import { SharedMaterialModule } from './sharedModule/sharedMaterialModule';
+
 
 @NgModule({
   declarations: [
@@ -17,7 +19,8 @@ import { MenuComponent } from './index/menu/menu.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    SharedMaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
