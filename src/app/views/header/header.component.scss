@@ -13,8 +13,12 @@
   height: calc(100vh - 64px);
 }
 
+
+
+//以下自訂義
 .toolbar
 {
+  padding: 0 20px;
   background-color: #75809C;
   color: #66FFE6;
 }
@@ -25,15 +29,33 @@
 .homeButton
 {
   font-size: 20px;
+  float: left;
 }
-
+//桌機版
 .menuButtons
 {
   width: 70%;
   font-size: 16px;
+
+  @media (max-width: 913px)
+  {
+    display: none;
+  }
 }
 .menuButton
 {
   font-size: 16px;
   margin: 0 2%;
 }
+
+//手機版
+.mobileMenuButtons
+{
+  width: 70%;
+  text-align: right;
+  @media (min-width: 912.9px)
+  {
+    display: none;
+  }
+}
+
