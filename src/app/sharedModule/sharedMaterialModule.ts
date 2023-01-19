@@ -1,7 +1,11 @@
 import { NgModule } from '@angular/core';
-import { MatMenuModule } from '@angular/material/menu';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
-  exports: [MatMenuModule] // 在export
+  exports: [
+    MatToolbarModule,
+    MatButtonModule
+  ] 
 })
 export class SharedMaterialModule {}

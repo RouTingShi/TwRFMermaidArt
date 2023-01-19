@@ -1,0 +1,39 @@
+.demo-app-header 
+{
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+  
+.demo-app-container,
+.demo-app-sidenav 
+{
+  position: absolute;
+  padding-top: 64px;
+  height: calc(100vh - 64px);
+}
+
+.toolbar
+{
+  background-color: #75809C;
+  color: #66FFE6;
+}
+.home
+{
+  width: 30%;
+}
+.homeButton
+{
+  font-size: 20px;
+}
+
+.menuButtons
+{
+  width: 70%;
+  font-size: 16px;
+}
+.menuButton
+{
+  font-size: 16px;
+  margin: 0 2%;
+}
