@@ -104,7 +104,7 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
-            "baseHref": "https://routingshi.github.io/TwRFMermaidArt/",
+            "baseHref": "/TwRFMermaidArt/",
             "name": "TwRFMermaidArt",
             "email": "bleach7306@gmail.com"
           }
