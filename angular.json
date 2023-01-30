@@ -100,6 +100,14 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "/TwRFMermaidArt/",
+            "name": "TwRFMermaidArt",
+            "email": "bleach7306@gmail.com"
+          }
         }
       }
     }
