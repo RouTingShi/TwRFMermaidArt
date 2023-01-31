@@ -1,0 +1,46 @@
+<img  class="banner" src="https://routingshi.github.io/TwRFMermaidArt/assets/image/banner.jpg">
+<mat-toolbar class="toolbar text background">
+    <div class="home">
+        <button mat-button class="homeButton">TwRFMemaidArt</button>
+    </div>
+
+
+    <!--桌機版-->
+    <div class="menuButtons">
+        <button mat-button class="menuButton">Home</button>
+        <button mat-button class="menuButton">Our Story</button>
+        <button mat-button class="menuButton">Explore</button>
+        <button mat-button class="menuButton" routerLink="/productDirctory">Shop</button>
+        <button mat-button class="menuButton">My Cart</button>
+        <button mat-button class="menuButton">My Order</button>
+    </div>
+
+    <!--手機與平板版-->
+    <div class="mobileMenuButtons">
+        <button  mat-icon-button [matMenuTriggerFor]="menu"><mat-icon>menu</mat-icon></button>
+
+        <mat-menu #menu="matMenu" class="mobileMenu background">
+            <button mat-menu-item>
+                Home
+            </button>
+            <button mat-menu-item>
+                Our Story
+            </button>
+            <button mat-menu-item>
+                Explore
+            </button>
+            <button mat-menu-item routerLink="/productDirctory">
+                Shop
+            </button>
+            <button mat-menu-item>
+                My Cart
+            </button>
+            <button mat-menu-item>
+                My Order
+            </button>
+        </mat-menu>
+    </div>
+
+</mat-toolbar>
+
+
